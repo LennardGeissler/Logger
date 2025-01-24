@@ -30,7 +30,7 @@ const handler = new ConsoleHandler();
 handler.setFormatter(new TextFormatter('[{timestamp}] [{level}] {message}'));
 logger.addHandler(handler);
 // Start logging!
-logger.info('Application started', { version: '1.0.0' });
+logger.info('Application started', { version: '1.0.1' });
 logger.debug('Debug message');
 logger.warn('Warning message', { details: 'Something went wrong' });
 logger.error('Error occurred', { error: new Error('Failed to process') });
@@ -156,4 +156,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Authors
 
-- Lennard Geissler
+- Lennard Geissler (@LennardGeissler)
